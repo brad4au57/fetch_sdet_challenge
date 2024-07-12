@@ -1,0 +1,14 @@
+{
+  "name": "fetch_sdet_challenge",
+  "version": "1.0.0",
+  "description": "Repo for SDET Coding Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run --spec \"**/weighCoins.cy.js\" --browser chrome --headed"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.13.0"
+  }
+}
