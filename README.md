@@ -56,6 +56,9 @@ This command will open the Cypress Test Runner where you can see the tests runni
 - Start by selecting "E2E Testing".
 - Confirm that Chrome is the selected browser, then click "Start E2E Testing in Chrome".
 - Once the automated browser is opened, click on the "weighCoins.cy.js" file to run the test.
+- To see the test output to the console, right-click inside the browser window and select "Inspect"
+- Once the DevTools have opened, click on "Console" tab near the top of the DevTools window
+- From here you can see the output from the test OR click on any test step including "log" to see more detailed output at each step.
 
 ## Directory Structure
 

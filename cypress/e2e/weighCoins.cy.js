@@ -2,7 +2,7 @@
 
 import '../support/e2e';
 
-describe('Coin Weighing Coding Challenge Tests', () => {
+describe('Coin Weighing Coding Challenge', () => {
   beforeEach(() => {
     cy.visit('/');
   });
@@ -146,7 +146,7 @@ describe('Coin Weighing Coding Challenge Tests', () => {
         });
       };
 
-      // Populate coinText array with the button texts
+      // Populate coinText array with the coin button texts
       $coins.each((index, button) => {
         coinText.push(button.innerText);
       });
